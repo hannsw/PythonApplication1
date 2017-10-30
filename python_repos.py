@@ -11,7 +11,7 @@ print("Status code:", r.status_code)
 response_dict = r.json()
 
 #print result
-print("Total repo: ", response_dict['total_count'])
+print("Total 111repo: ", response_dict['total_count'])
 
 #explor repo
 repo_dicts = response_dict['items']
